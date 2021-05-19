@@ -1,0 +1,166 @@
+/*REMEBER TO REMOVE AUTO RELOAD FUNCTION FROM
+HTML PAGE MOFO*/
+
+
+
+/*NAVIGATION BAR STYLING*/
+.menu{
+  position: fixed;
+  z-index: 1;
+  height: 130px;
+  background-color: #5d99a0;
+  width: 100%;
+  top: -25px;
+}
+.navWidth{
+  max-width: 82%;
+  width: 82%;
+  position: relative;
+  font-size: 1.4rem;
+  top: 12%;
+  color: #fff;
+}
+
+.navWidth, .top-section, .heading{
+  font-family: 'Cutive Mono', monospace;
+}
+
+/*TOP SECTION STARTS*/
+.top-section{
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+}
+
+.flex-container-one{
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  justify-content: space-between;
+  margin-bottom:  3%
+
+}
+
+.flex-container-one > div{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.first-txt{
+  justify-content: flex-end;
+  margin: auto;
+  text-align: left;
+  margin-left: 9%;
+  font-size: 1.3rem;
+}
+
+.first-gif > img{
+  border-radius: 43%;
+  max-height: 480px;
+}
+
+.top-buttons{
+  flex: auto;
+}
+.btn-space{
+  margin-right: 3%
+}
+/*top section Ends*/
+
+
+/*SECOND SECTION STARTS*/
+.flex-container-two{
+  display: flex;
+  background-color: #5d99a0;
+  margin-top: 8%;
+  flex-direction: column;
+}
+.first-row{
+  flex-direction: row;
+}
+.heading{
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+}
+.col-text1{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 4%;
+  color: white;
+}
+hr{
+  width: 30%;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr::after{
+  font-family: 'Inconsolata', monospace;
+  content: "⑃";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #5d99a0;
+}
+
+
+.second-col, .third-col{
+  padding: 5%;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+.col-img2 > img, .col-img3 > img{
+  height: 300px;
+  border-radius: 20px;
+}
+
+.col-img3 > img{
+  margin-right: 50px
+}
+.col-img2 > img{
+  margin-left: 50px
+}
+
+.col-text2{
+  font-size: large;
+  margin-top: auto;
+}
+.col-text3{
+  font-size: large;
+}
+
+.sixth-section{
+  display: flex;
+  justify-content:center;
+}
+.gif{
+  height: 700px;
+  margin: -3% 0;
+  z-index: -3;
+}
+
+
+.flex-container-three{
+  display: flex;
+  margin-top: 8%;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5%
+}
+
+ .red{
+  color: #FF0000;
+}

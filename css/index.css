@@ -1,0 +1,101 @@
+/* YOU DID A NAUGHTY THING AND STYLED THE CARDS BACKGROUND COLOR
+ON PAGE1 DIRECTLY IN THE HTML */
+
+
+.menu{
+  position: fixed;
+  z-index: 1;
+  height: 183px;
+  background-color: #5d99a0;
+  width: 100%;
+  top: -25px;
+}
+.navWidth{
+  top: 32%;
+  max-width: 82%;
+  width: 82%;
+  position: relative;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.4rem;
+}
+.navbar-nav > li{
+  background-color: #5d99a0;
+}
+
+
+
+.topSection{
+  position: relative;
+  padding-top: 20%;
+  
+}
+.cloudHead{
+  height: 250px;
+  position: relative;
+  left: 34%;
+}
+.first-text{
+  left: 10%;
+}
+
+.quote{
+  font-family: 'Cutive Mono', monospace;
+  top: 130px;
+  text-align: center;
+}
+hr{
+  width: 13%;
+}
+li{
+  background-color: #fff;
+}
+
+.secondSection{
+  margin-top: 2%;
+}
+
+/* BUTTON POSSITION */
+.pos2{
+  position: relative;
+  top: 31px;
+}
+
+.pos3{
+  position: relative;
+  top: 32px;
+}
+
+
+/* mobile friendly section */
+@media only screen and (max-height: 600px){
+  .menu{
+    height: 25%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .cloudHead{
+    margin-right: 160px;
+    margin-top: 80px;
+  }
+}
+
+/* MOBILE SETTINGS FOR WHOLE TOP SECTION. IMG AND TWO TEXTS */
+@media only screen and (max-width: 800px){
+  .mobile{
+    margin: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px), screen and (max-height:800px){
+  .mobile-margin{
+    margin-top: 5%;
+  }
+}
+
+ @media only screen and (max-width: 740px){
+  .mobile-margin{
+    margin-top: 22%;
+  }
+}
+  /* END OF MOBILE SECTION */
