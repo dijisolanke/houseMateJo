@@ -27,7 +27,7 @@ ON PAGE1 DIRECTLY IN THE HTML */
 .topSection{
   position: relative;
   padding-top: 20%;
-  
+
 }
 .cloudHead{
   height: 250px;
@@ -52,6 +52,10 @@ li{
 
 .secondSection{
   margin-top: 2%;
+}
+
+.white{
+  margin: 0 40px 0 41px;
 }
 
 /* BUTTON POSSITION */
