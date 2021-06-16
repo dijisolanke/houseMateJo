@@ -27,7 +27,7 @@ ON PAGE1 DIRECTLY IN THE HTML */
 .topSection{
   position: relative;
   padding-top: 20%;
-  
+
 }
 .cloudHead{
   height: 250px;
@@ -42,6 +42,7 @@ ON PAGE1 DIRECTLY IN THE HTML */
   font-family: 'Cutive Mono', monospace;
   top: 130px;
   text-align: center;
+  right: 56px;
 }
 hr{
   width: 13%;
@@ -51,7 +52,11 @@ li{
 }
 
 .secondSection{
-  margin-top: 2%;
+  margin: 2% 124px;
+}
+
+.white{
+  margin: 0 40px 0 41px;
 }
 
 /* BUTTON POSSITION */
