@@ -42,6 +42,7 @@ ON PAGE1 DIRECTLY IN THE HTML */
   font-family: 'Cutive Mono', monospace;
   top: 130px;
   text-align: center;
+  right: 56px;
 }
 hr{
   width: 13%;
@@ -51,7 +52,7 @@ li{
 }
 
 .secondSection{
-  margin-top: 2%;
+  margin: 2% 124px;
 }
 
 .white{
